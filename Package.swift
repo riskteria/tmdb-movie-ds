@@ -12,6 +12,7 @@ let package = Package(
             name: "MovieAppDS",
             resources: [
                 .process("Resources/Colors.xcassets"),
+                .process("Resources/Images.xcassets"),
                 .copy("Resources/Fonts")
             ],
             swiftSettings: [
