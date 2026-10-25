@@ -4,6 +4,7 @@ public enum MVColors {
     case brand
     case backgroundPrimary
     case backgroundSecondary
+    case badgeScrim
     case fillPrimary
     case ratingGold
     case textPrimary
@@ -17,6 +18,8 @@ public enum MVColors {
             .backgroundPrimary
         case .backgroundSecondary:
             .backgroundSecondary
+        case .badgeScrim:
+            .badgeScrim
         case .fillPrimary:
             .fillPrimary
         case .ratingGold:
